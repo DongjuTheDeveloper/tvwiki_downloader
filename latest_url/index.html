@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>티비위키 최신주소</title>
+    <style>
+        body {
+            background: #fff;
+            color: #222;
+            font-family: 'Segoe UI', 'Apple SD Gothic Neo', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            margin-top: 0;
+        }
+        a {
+            font-size: 1.3rem;
+            color: #0074d9;
+            text-decoration: none;
+            word-break: break-all;
+            padding: 0.5em 1em;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+        a:hover {
+            background: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>티비위키 최신주소</h1>
+    <a id="latest-url" href="">로딩 중...</a>
+    <a href="https://github.com/canonheart/tvwiki_downloader">공식 저장소</a>
+    <script>
+        async function getLatestUrl() {
+            const url = "https://corsproxy.io/?https://t.me/s/tvwiki_url";
+            try {
+                const res = await fetch(url);
+                const text = await res.text();
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(text, "text/html");
+                const links = Array.from(doc.querySelectorAll('a[href]'));
+                const matchedLinks = links
+                    .map(a => a.href)
+                    .filter(href => /^https:\/\/tvwiki\d+\.com/.test(href));
+                if (matchedLinks.length > 0) {
+                    return matchedLinks[matchedLinks.length - 1];
+                } else {
+                    return "해당 링크를 찾을 수 없습니다.";
+                }
+            } catch (e) {
+                return "오류 발생: " + e;
+            }
+        }
+
+        getLatestUrl().then(url => {
+            const a = document.getElementById('latest-url');
+            a.textContent = url;
+            a.href = url;
+        });
+    </script>
+</body>
+</html>
