@@ -1,3 +1,5 @@
+# 무료 버전 재구성 중입니다. 현재 무료 버전 실행 파일 다운로드 안됩니다.
+
 # 티비위키 다운로더
 [티비위키](https://dongjuthedeveloper.github.io/tvwiki_downloader/latest_url/) 영화 다운로더<br>
 
