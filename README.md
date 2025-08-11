@@ -4,14 +4,13 @@
 모든 문의: <br>
 ![](https://dcbadge.limes.pink/api/shield/1285574573877624924?style=flat?d=d)
 [![](https://img.shields.io/badge/DongjuTheDevloper-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/DongjuTheDeveloper)
-
 <br>
 
 # 사용법
 
 두 단계 모두 [ffmpeg](https://ffmpeg.org/download.html)를 먼저 다운로드 받아놔야 합니다.<br><br>
 
-## 무료 체험 (4~5 딜레이, 병렬 다운로드 미지원)
+## 무료 체험 (3~5 딜레이, 병렬 다운로드 미지원)
 여기서 [다운로드](https://github.com/DongjuTheDeveloper/tvwiki_downloader/releases/download/free-exe/tvwiki-dl.zip)하고 압축을 푸세요.<br><br>
 
 압축을 풀고 폴더 안 downloader_exe를 우클릭 후, 경로를 복사해놓으세요.<br>
