@@ -16,7 +16,7 @@
 만약 링크로 받은 파일로 다운로드가 안됐으면 저한테 메시지 주시고, [기존의 무료 버전](https://github.com/DongjuTheDeveloper/tvwiki_downloader/releases/download/free-exe/tvwiki-dl.zip)으로 설치해주세요.<br>
 
 압축을 풀고 폴더 안 downloader_exe를 우클릭 후, 경로를 복사해놓으세요.<br>
-`에시) "C:\Users\유저이름\Downloads\tvwiki-dl-free\tvwiki-downloader.exe`<br>
+`예시) "C:\Users\유저이름\Downloads\tvwiki-dl-free\tvwiki-downloader.exe`<br>
 `기존 무료 버전) "C:\Users\유저이름\Downloads\tvwiki-dl\downloader.exe"`<br><br>
 
 cmd를 열고 양식에 맞게 명령어를 입력하세요.<br>
