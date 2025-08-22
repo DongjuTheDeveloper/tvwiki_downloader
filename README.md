@@ -19,7 +19,8 @@
 `에시) "C:\Users\유저이름\Downloads\tvwiki-dl-free\tvwiki-downloader.exe`<br>
 `기존 무료 버전) "C:\Users\유저이름\Downloads\tvwiki-dl\downloader.exe"`<br><br>
 
-cmd를 열고 양식에 맞게 명령어를 입력하세요.
+cmd를 열고 양식에 맞게 명령어를 입력하세요.<br>
+참고로 실행할땐 중괄호 없이 실행하는 겁니다. `{}`
 ```cmd
 "C:\Users\유저이름\Downloads\tvwiki-dl-free\tvwiki-downloader.exe" {영상 주소} {비디오 저장 디렉터리}
 :: 영상 주소는 그냥 복붙하시면 되고, 비디오 저장 디렉터리는 ./videos 같은 식으로 입력하시면 됩니다.
