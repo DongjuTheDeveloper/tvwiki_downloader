@@ -13,11 +13,9 @@
 
 ## 무료 체험 (3~5 딜레이, 병렬 다운로드 미지원)
 여기서 [다운로드](https://github.com/DongjuTheDeveloper/tvwiki_downloader/releases/download/free-exe/tvwiki-dl-free.zip)하고 압축을 푸세요.<br>
-만약 링크로 받은 파일로 다운로드가 안됐으면 저한테 메시지 주시고, [기존의 무료 버전](https://github.com/DongjuTheDeveloper/tvwiki_downloader/releases/download/free-exe/tvwiki-dl.zip)으로 설치해주세요.<br>
 
 압축을 풀고 폴더 안 downloader_exe를 우클릭 후, 경로를 복사해놓으세요.<br>
-`예시) "C:\Users\유저이름\Downloads\tvwiki-dl-free\tvwiki-downloader.exe`<br>
-`기존 무료 버전) "C:\Users\유저이름\Downloads\tvwiki-dl\downloader.exe"`<br><br>
+`예시) "C:\Users\유저이름\Downloads\tvwiki-dl-free\tvwiki-downloader.exe`<br><br>
 
 cmd를 열고 양식에 맞게 명령어를 입력하세요.<br>
 참고로 실행할땐 중괄호 없이 실행하는 겁니다. `{}`
@@ -25,13 +23,6 @@ cmd를 열고 양식에 맞게 명령어를 입력하세요.<br>
 "C:\Users\유저이름\Downloads\tvwiki-dl-free\tvwiki-downloader.exe" {영상 주소} {비디오 저장 디렉터리}
 :: 영상 주소는 그냥 복붙하시면 되고, 비디오 저장 디렉터리는 ./videos 같은 식으로 입력하시면 됩니다.
 ```
-
-아래는 기존 무료 버전용 명령어입니다.
-<br>
-```cmd
-"C:\Users\유저이름\Downloads\tvwiki-dl\downloader.exe" {영상 주소} {비디오 저장 디렉터리}
-```
-<br>
 
 그리고 제가 컴파일된 무료 및 유료 버전으로 많은 테스트를 안해봐서 그런데,<br>
 에러나면 공유 부탁드리겠습니다. (issue 열거나, 위 메신저들 중 하나 택해서 문의)
