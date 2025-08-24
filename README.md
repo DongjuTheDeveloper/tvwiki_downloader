@@ -1,6 +1,7 @@
 # 티비위키 다운로더
 [티비위키](https://dongjuthedeveloper.github.io/tvwiki_downloader/latest_url/) 영화 다운로더<br>
-2025.08.22 - 무료 및 유료 버전에서 여러 오류 수정하고 새로 컴파일해서 릴리스 했습니다.
+2025.08.24 - 무료 및 유료 버전에서 여러 오류 수정하고 새로 컴파일해서 릴리스 했습니다.<br>
+그 전 버전 아예 실행안되니, 무료는 다시 다운로드 받고 유료는 채팅을 봐주세요.
 
 모든 문의: (디스코드는 못 볼 때 있을 수 있습니다.) <br>
 ![](https://dcbadge.limes.pink/api/shield/1285574573877624924?style=flat?d=d)
