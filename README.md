@@ -13,7 +13,8 @@
 두 단계 모두 [ffmpeg](https://ffmpeg.org/download.html)를 먼저 다운로드 받아놔야 합니다.<br><br>
 
 ## 무료 체험 (5~7초 딜레이, 병렬 다운로드 미지원)
-무료는 오류 패치 느려요.
+무료는 오류 패치 느립니다.<br>
+connection aborted 이런 오류나면 밴당한거니까 유료 구매를 추천합니다.
 
 여기서 [다운로드](https://github.com/DongjuTheDeveloper/tvwiki_downloader/releases/download/free-exe/tvwiki-dl-free.zip)하고 압축을 푸세요.<br>
 
